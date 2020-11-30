@@ -13,12 +13,12 @@ public class Golfbag {
 			this.theBag = new ArrayList<Golfbag>();
 		}
 		
-		public Golfbag(String filename)
+		/*public Golfbag(String name)
 		{
 			this();
 			try
 			{
-				Scanner input = new Scanner(new File(System.getProperty("user.dir") + "/src/" + filename));
+				Scanner input = new Scanner(new File(System.getProperty("user.dir") + "/src/" + name));
 				while(input.hasNext())
 				{
 					this.theBag.add(new Golfbag(input.nextLine()));
@@ -27,7 +27,7 @@ public class Golfbag {
 			}
 			catch(Exception e) { e.printStackTrace();}
 		}
-
+*/
 		public void display()
 		{
 			for(Golfbag b : this.theBag)
